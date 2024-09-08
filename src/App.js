@@ -4,6 +4,10 @@ import OfferSlider from './Components/OfferSlider';
 import ProductList from './Components/ProductList';
 import Footer from './Components/Footer';
 import AboutUs from './Components/AboutUs';
+import Login from './Components/login';
+import ShoppingCart from './Components/ShoppingCart';
+import SignUp from './Components/signup';
+import UserProfile from './Components/UserProfile';
 import './App.css';
 
 function App() {
@@ -14,6 +18,11 @@ function App() {
       <ProductList />
       <Footer />
       <AboutUs />
+      <Login/>
+      <ShoppingCart/>
+      <SignUp/>
+      <UserProfile/>
+
     </div>
   );
 }
